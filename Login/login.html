@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-style.css">
+</head>
+
+<body>
+    <main class="flex">
+        <div class="flex">
+            <h1 class="top-bank">Welcome to my
+                <span class="purple">Bank</span>
+            </h1>
+            <img class="logo-size flex" src="../Content/bank.jpg" alt="logo">
+        </div>
+
+        <!-- login section   -->
+        <section class="w-3/4 mx-auto my-12">
+            <h3 class="top-bank please-login">Please Login</h3>
+
+            <div>
+                <div class="flex">
+                    <input id="user_name_field" class="input-style" type="text" placeholder="Your username(alif) " />
+                    <input id="user_password_field" class="input-style" type="password"
+                        placeholder="Password(alif07) " />
+
+                    <p id="login_error_messege" class="error-message"></p>
+
+                    <button id="login_button" class="login-button">Login</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

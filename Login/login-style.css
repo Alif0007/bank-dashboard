@@ -1,0 +1,76 @@
+body {
+    background-image: url('../Content/Login-bg.avif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.top-bank {
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.purple {
+    color: purple;
+}
+
+.please-login {
+    font-size: 32px;
+    margin: 40px 0 40px 0;
+    font-weight: 200;
+}
+
+.logo-size {
+    height: 100px;
+    width: auto;
+}
+
+.input-style {
+    padding: 0px 20px;
+    width: 700px;
+    height: 60px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.input-style:focus {
+    outline: none;
+    border: 1px purple solid;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+.login-button {
+    width: 90px;
+    height: 40px;
+    background-color: purple;
+    color: rgb(219, 216, 216);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: purple;
+    transition: all linear .5s;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
