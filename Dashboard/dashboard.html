@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <header class="bg">
+        <div class="flex space-between banner-margin">
+            <div class="flex">
+                <img class="logo-size" src="../Content/bank.jpg" alt="bank-logo">
+                <h1 class="logo-text">Bank Dashboard</h1>
+            </div>
+
+            <button id="logout_button" class="login-button">Logout</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- balance andd transaction  -->
+        <section class="">
+            <div class="container container-grid">
+
+                <div class="container-box">
+                    <h3>Deposit</h3>
+                    <h2>$ <span id="deposit_total">0</span></h2>
+                </div>
+
+                <div class="container-box-2">
+                    <h3>Withdraw</h3>
+                    <h2>$ <span id="withdraw_total">33</span></h2>
+                </div>
+
+                <div class="container-box-3">
+                    <h3>Balance</h3>
+                    <h2>$ <span id="balance_total">5000</span></h2>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- desposit and withdraw  -->
+        <section class="container input-bg ">
+
+            <div class="input-grid">
+
+                <!-- deposit  -->
+                <div>
+                    <h3 class="deposit">Please Deposit</h3>
+
+                    <div class="">
+                        <input id="deposit_money_field" class="input-box" type="number" placeholder="Deposit Amount" />
+                        <p id="deposit_error_messege" class=""></p>
+                        <button id="deposit_button" class="input-button">Deposit</button>
+                    </div>
+                </div>
+
+                <!-- withdraw  -->
+                <div>
+                    <h3 class="deposit">Please Withdraw</h3>
+
+                    <div class="">
+                        <input id="withdraw_money_field" class="input-box" type="number"
+                            placeholder="Withdraw Amount" />
+                        <p id="withdraw_error_messege" class=""></p>
+                        <button id="withdraw_button" class="input-button">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>

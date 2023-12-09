@@ -8,7 +8,7 @@ loginButton.addEventListener('click', () => {
     const userPasswordValue = passwordField.value
 
     if (userNameValue === 'alif' && userPasswordValue === 'alif07') {
-        window.location.href = "bankDashboard.html"
+        window.location.href = "dashboard.html"
     } else {
         loginErrorMessege.innerHTML = "Invalid username or password, TRY AGAIN"
     }
