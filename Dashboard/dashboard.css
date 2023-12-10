@@ -70,6 +70,9 @@ p {
     padding: 1.5rem;
     font-size: 1.2rem;
     border-radius: 10px;
+    box-shadow: 20px 20px 30px 1px #888888;
+    ;
+
 
 }
 
@@ -97,6 +100,8 @@ p {
     padding: 1.5rem;
     font-size: 1.2rem;
     border-radius: 10px;
+    box-shadow: 20px 20px 30px 1px #888888;
+
 
 }
 
@@ -119,6 +124,8 @@ p {
     padding: 1.5rem;
     font-size: 1.2rem;
     border-radius: 10px;
+    box-shadow: 20px 20px 30px 1px #888888;
+
 
 }
 
@@ -148,7 +155,7 @@ p {
 }
 
 .input-box {
-    width: 400px;
+    width: 450px;
     height: 45px;
     border-radius: 8px;
     margin: 20px 0 20px 0;

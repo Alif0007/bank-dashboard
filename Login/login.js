@@ -4,11 +4,11 @@ const userNameField = document.getElementById('user_name_field')
 const passwordField = document.getElementById('user_password_field')
 
 loginButton.addEventListener('click', () => {
-    const userNameValue = userNameField.value
-    const userPasswordValue = passwordField.value
+    const userNameValue = userNameField.value.trim()
+    const userPasswordValue = passwordField.value.trim()
 
     if (userNameValue === 'alif' && userPasswordValue === 'alif07') {
-        window.location.href = "dashboard.html"
+        window.location.href = '/Dashboard/dashboard.html'
     } else {
         loginErrorMessege.innerHTML = "Invalid username or password, TRY AGAIN"
     }
