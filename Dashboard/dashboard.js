@@ -4,7 +4,7 @@ const withdrawButton = document.getElementById('withdraw_button');
 
 // Logout
 logoutButton.addEventListener('click', () => {
-    window.location.href = "/login/login.html";
+    window.location.href = "https://alif0007.github.io/bank-dashboard/Login/login.html";
 });
 
 // Get input value
