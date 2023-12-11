@@ -192,3 +192,9 @@ p {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
 }
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
